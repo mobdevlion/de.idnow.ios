@@ -58,6 +58,7 @@ Desktop.ini
 
 build/
 Pods/
+Carthage/
 
 *.pbxuser
 *.perspective
