@@ -1,6 +1,31 @@
+# Table of Contents
+- [Changelog](#changelog)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [CocoaPods](#cocoapods)
+  - [CocoaPods & XCode 9](#cocoapods-xcode-9)
+  - [Manually](#manually)
+- [Settings (IDnowSettings)](#settings-idnowsettings)
+- [Branding (IDnowAppearance)](#branding-idnowappearance)
+  - [Colors](#colors)
+  - [Status Bar](#status-bar)
+  - [Fonts](#fonts)
+- [Adding Push Notifications](#adding-push-notifications)
+- [Usage example:](#usage-example)
+- [Localization](#localization)
+- [Example:](#example)
+
 # SDK
 
 ## Changelog
+
+### 3.21.0
+Changes:
+- Updated to newest Sentry version
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.21.0, update Sentry dependency version and call pod update
 
 ### 3.20.0
 Changes:
