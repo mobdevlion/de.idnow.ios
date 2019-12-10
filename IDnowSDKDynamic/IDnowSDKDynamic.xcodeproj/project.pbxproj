@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AE5336B239F93D100789E97 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE5336A239F93D000789E97 /* VideoToolbox.framework */; };
 		EE0B7D0422B90D9100E041F3 /* IDnowSDKDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0B7D0222B90D9100E041F3 /* IDnowSDKDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE0B7D1A22B9196800E041F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0B7D1922B9196700E041F3 /* Foundation.framework */; };
 		EE0B7D1C22B9197900E041F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0B7D1B22B9197900E041F3 /* CoreGraphics.framework */; };
@@ -36,10 +37,10 @@
 		EE130AF222BAB2B9004AA380 /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE130AEC22BAB2B9004AA380 /* libPhoneNumberiOS.framework */; };
 		EE130AF322BAB2B9004AA380 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE130AED22BAB2B9004AA380 /* FLAnimatedImage.framework */; };
 		EE130AF422BAB2B9004AA380 /* Sentry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE130AEE22BAB2B9004AA380 /* Sentry.framework */; };
-		EE130AF522BAB2B9004AA380 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE130AEF22BAB2B9004AA380 /* AFNetworking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AE5336A239F93D000789E97 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		EE0B7CFF22B90D9100E041F3 /* IDnowSDKDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDnowSDKDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0B7D0222B90D9100E041F3 /* IDnowSDKDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDnowSDKDynamic.h; sourceTree = "<group>"; };
 		EE0B7D0322B90D9100E041F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		EE130AEC22BAB2B9004AA380 /* libPhoneNumberiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumberiOS.framework; path = ../Carthage/Build/iOS/libPhoneNumberiOS.framework; sourceTree = "<group>"; };
 		EE130AED22BAB2B9004AA380 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = ../Carthage/Build/iOS/FLAnimatedImage.framework; sourceTree = "<group>"; };
 		EE130AEE22BAB2B9004AA380 /* Sentry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sentry.framework; path = ../Carthage/Build/iOS/Sentry.framework; sourceTree = "<group>"; };
-		EE130AEF22BAB2B9004AA380 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE5336B239F93D100789E97 /* VideoToolbox.framework in Frameworks */,
 				EE130AF022BAB2B9004AA380 /* Masonry.framework in Frameworks */,
 				EE130AF122BAB2B9004AA380 /* SocketRocket.framework in Frameworks */,
 				EE130AF222BAB2B9004AA380 /* libPhoneNumberiOS.framework in Frameworks */,
 				EE130AF322BAB2B9004AA380 /* FLAnimatedImage.framework in Frameworks */,
 				EE130AF422BAB2B9004AA380 /* Sentry.framework in Frameworks */,
-				EE130AF522BAB2B9004AA380 /* AFNetworking.framework in Frameworks */,
 				EE0B7D5222B9252900E041F3 /* CoreVideo.framework in Frameworks */,
 				EE0B7D5022B924E700E041F3 /* QuartzCore.framework in Frameworks */,
 				EE0B7D4E22B924D700E041F3 /* MobileCoreServices.framework in Frameworks */,
@@ -144,7 +144,7 @@
 		EE0B7D1822B9196700E041F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE130AEF22BAB2B9004AA380 /* AFNetworking.framework */,
+				8AE5336A239F93D000789E97 /* VideoToolbox.framework */,
 				EE130AED22BAB2B9004AA380 /* FLAnimatedImage.framework */,
 				EE130AEC22BAB2B9004AA380 /* libPhoneNumberiOS.framework */,
 				EE130AEA22BAB2B9004AA380 /* Masonry.framework */,
