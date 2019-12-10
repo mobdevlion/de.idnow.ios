@@ -421,7 +421,6 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lz",
-					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios.IDnowSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -459,7 +458,6 @@
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lz",
-					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios.IDnowSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
