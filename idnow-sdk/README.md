@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 4.0.0
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.0.0,  and call pod update
+
 ### 3.22.0
 Changes:
 - Added waiting screens with animation.
